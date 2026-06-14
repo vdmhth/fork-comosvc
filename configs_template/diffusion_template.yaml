@@ -42,7 +42,7 @@ train:
   max_steps: 1000000
   interval_log: 10
   interval_val: 2000
-  interval_force_save: 10000
+  interval_force_save: 20000
   # plateau_patience: 10
   # plateau_min_delta: 0.0001
 
