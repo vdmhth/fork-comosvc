@@ -6,6 +6,7 @@
 
 A consistency model based Singing Voice Conversion system is composed, which is inspired by [CoMoSpeech](https://github.com/zhenye234/CoMoSpeech): One-Step Speech and Singing Voice Synthesis via Consistency Model. 
 ## 🚀 
+```shell
 bash run_prepare.sh
 
 sbatch --partition=<PARTITION> 3_preprocess.sh
@@ -13,6 +14,7 @@ sbatch --partition=<PARTITION> 3_preprocess.sh
 sbatch --partition=<PARTITION> 4_train_teacher.sh
 
 sbatch --partition=<PARTITION> 5_train_como.sh
+```
 
 
 This is an implemention of the paper [CoMoSVC](https://arxiv.org/pdf/2401.01792.pdf).
